@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;''
+}
+
+#container{
+	background-color: black;
+	border: 10px solid grey;
+	width: 970px;
+	height: 700px;
+}
+
+#select{
+	background-color: lightgrey;
+	border: 5px solid grey;
+	border-radius: 10px;
+	width: 411px;
+	height: 170px;
+	padding-left: 20px;
+	margin: 200px 330px;
+		
+}
+	#select h1{
+		color: orange;
+		text-shadow: 2px 2px white;
+		text-align: center;
+		margin-right: 13px;
+	}
+
+
+.demo 

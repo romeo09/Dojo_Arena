@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dojo Arena Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="players.style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    	$("#leo").click(function () {
+        $('#container').css("background-image", 'url(./imagesgame/beach.jpg)');
+    	});
+    	$("#planet").click(function () {
+        $('#container').css("background-image", 'url(./imagesgame/earth.jpg)');
+    	});
+    	$("#dojo").click(function () {
+        $('#container').css("background-image", 'url(./imagesgame/dojo.jpg)');
+    	});
+    	$("#forest").click(function () {
+        $('#container').css("background-image", 'url(./imagesgame/forest.jpg)');
+    	});
+    });
+    </script>
+	</head>
+
+<body>
+	<div id="container">
+		<div id="select">
+
+			<div id="menues">
+				<h1>Select Players</h1>
+				<div class="demo">
+	 				<form action="#">
+						<fieldset>
+					<label for="ninja">Select Ninja 1</label>
+					<select name="ninja" id="ninja">
+				  		<option id="leo">Leo</option>
+				 		<option id="donny">Donny</option>
+				  		<option id="mikey">Mikey</option>
+				  		<option id="raph">Raphael</option>
+					</select>
+					<label for="ninja">Select Ninja 2</label>
+					<select name="ninja" id="ninja">
+				 		<option id="leo">Leo</option>
+				 		<option id="donny">Donny</option>
+				  		<option id="mikey">Mikey</option>
+				  		<option id="raph">Raphael</option>
+					</select>
+				</form>
+			</div>
+
+		</div>
+	</div>
+	 -->
+</body>
+</html>
